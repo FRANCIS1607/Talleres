@@ -17,14 +17,6 @@ int main() {
     float maxMateria[nMaterias], minMateria[nMaterias];
     int aprobados[nMaterias], reprobados[nMaterias];
 
-    // Inicializacion de los arreglos
-    for (int i = 0; i < nEst; i++) promEst[i] = 0; // Inicializa los promedios de estudiantes en 0
-    for (int j = 0; j < nMaterias; j++) {
-        promMaterias[j] = 0; // Inicializa los promedios de materias en 0
-        aprobados[j] = 0;    // Inicializa el contador de aprobados de cada materia en 0
-        reprobados[j] = 0;   // Inicializa el contador de reprobados de cada materia en 0
-    }
-
     // Ingreso de calificaciones
     for (int i = 0; i < nEst; i++) {
         for (int j = 0; j < nMaterias; j++) {
